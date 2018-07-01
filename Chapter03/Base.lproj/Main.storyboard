@@ -28,15 +28,24 @@
                                 <color key="backgroundColor" red="0.74277547819273027" green="1" blue="0.30457745294968241" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.047745304404145039" green="0.047305667903129248" blue="0.04539043323983008" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="확대"/>
+                                <connections>
+                                    <action selector="btnZoom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="omv-vw-8pj"/>
+                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="GyK-7h-GFS">
                                 <rect key="frame" x="266" y="591" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchOnOff:" destination="BYZ-38-t0r" eventType="valueChanged" id="4X9-sC-uIS"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Qcw-eu-mYx" id="ejD-Vr-jnj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
