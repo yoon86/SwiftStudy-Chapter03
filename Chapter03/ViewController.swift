@@ -1,25 +1,31 @@
-//
-//  ViewController.swift
-//  Chapter03
-//
-//  Created by So young Yoon on 2018. 7. 1..
-//  Copyright © 2018년 So young Yoon. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    /*
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var btnResize: UIButton!
+    
+    @IBAction func btnResize(_ sender: UIButton) {
+        if sender.currentTitle == "확대" {
+            sender.setTitle("축소", for: .normal)
+            imgView.frame.size.width *= 2
+            imgView.frame.size.height *= 2
+        } else {
+            sender.setTitle("확대", for: .normal)
+            imgView.frame.size.width /= 2
+            imgView.frame.size.height /= 2
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func switchOnOff(_ sender: UISwitch) {
+        imgView.image = sender.isOn ? #imageLiteral(resourceName: "lamp_on.png") : #imageLiteral(resourceName: "lamp_off")
+        
     }
-
-
+    
+    */
+    
+    
+    
 }
 
